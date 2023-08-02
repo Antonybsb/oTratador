@@ -1,0 +1,304 @@
+:root {
+  --color-green-first: #003300;
+  --color-green-second: #9fc131;
+  --color-orange-first: #f7941d;
+  --color-yellow-first: #d9d900;
+  --color-white-first: #fff;
+  --color-black-first: #000;
+}
+
+.topbar {
+  background-color: #003300;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.topbar .row {
+  min-height: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #999999;
+}
+
+.pull-right {
+  float: right;
+}
+
+.topbar .sosmed-icon a {
+  color: #ffffff;
+}
+
+.middlebar {
+  min-height: 90px;
+}
+
+.contact-info {
+  float: right;
+  margin-top: 5px;
+}
+
+.contact-info > div {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 6px;
+}
+
+.box-icon-1 {
+  margin-bottom: 15px;
+}
+
+.box-icon-1 .icon {
+  color: #f7941d;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 2.2;
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.box-icon-1 .body-content {
+  color: #f7941d;
+  margin-left: 70px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.box-icon-1 .body-content .heading {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact-info > div:last-child {
+  margin-right: 0;
+}
+
+.contact-info > div {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.box-icon-1 {
+  margin-bottom: 15px;
+}
+
+.box-icon-1 .icon {
+  color: #f7941d;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 2.2;
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+/* NAVBAR SECTION */
+
+.header-1 .navbar-main {
+  background-color: #9fc131;
+}
+
+.navbar-main .navbar {
+  padding: 0;
+}
+
+.header-1 .navbar-main .navbar-brand {
+  position: absolute;
+  top: -85px;
+}
+
+.navbar-brand img {
+  border-style: none;
+  height: 70px;
+}
+
+.navbar-main .navbar-toggler {
+  color: #f7941d;
+}
+
+.navbar-toggler {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+}
+
+.btn-secondary {
+  background-color: #003300;
+  border: none;
+  margin-left: auto !important;
+}
+
+.navbar-main ul {
+  margin-left: 0;
+}
+
+.btn {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 13px 14px;
+  border-radius: 0;
+}
+
+/*BANNER*/
+
+.text-carousel {
+  margin-top: 300px;
+}
+
+.banner .wrap-caption {
+  width: 50%;
+}
+
+.caption-heading1 {
+  color: #ffffff;
+  font-size: 48px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.caption-headingP1 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.caption-heading3 {
+  color: #f7941d;
+  font-size: 48px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.caption-headingP3 {
+  font-size: 18px;
+  color: #f7941d;
+}
+
+/* SOBRE */
+
+.container[data-background] {
+  margin-top: 400px;
+}
+
+.content-wrap {
+  padding: 80px;
+}
+
+.text-primary {
+  color: #f7941d !important;
+}
+
+.section-heading {
+  font-size: 36px;
+  line-height: 1.2em;
+  padding-top: 0;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+.subheading {
+  margin-top: -20px;
+  color: #666666;
+  font-size: 18px;
+}
+
+.rs-icon-info-3 .info-icon {
+  display: table-cell;
+  text-align: center;
+}
+
+.rs-icon-info-3 .fa {
+  width: 70px;
+  height: 70px;
+  color: #f7941d;
+  background-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  padding-top: 17px;
+  font-size: 35px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.rs-icon-info-3 .info-text {
+  display: table-cell;
+  padding-left: 20px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.text-secondary {
+  color: #3c2800 !important;
+}
+
+/* PARCEIROS */
+
+.cards-products {
+  margin-top: 100px;
+}
+
+.img-cta img {
+  margin-top: -70px;
+  margin-bottom: -50px;
+}
+
+.uk21 {
+  font-size: 21px;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #f7941d;
+  border: 1px solid #ffffff;
+}
+
+/*PRODUTOS*/
